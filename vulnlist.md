@@ -7,8 +7,8 @@
 
 # Vulns
 
-1. 
-2. 
+1. Unauthorized admin 'Connor'
+2. Unauthorized user 'Cole'
 3. 
 4. 
 5. 
@@ -37,5 +37,6 @@
 28. 
 29. 
 30. 
+31. 
 
 
