@@ -33,6 +33,6 @@ check_text_not_exists() {
 
 # Usage:
 check_text_exists "/home/koco/Desktop/Forensics1.txt" "diag{ThisIsTheAnswerToForensicsQuestion1}" "Forensics 1 Correct"
-
+check_text_exists "/home/koco/Desktop/Forensics2.txt" "deftones" "Forensics 2 correct"
 
 
