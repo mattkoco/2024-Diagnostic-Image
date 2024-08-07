@@ -31,10 +31,14 @@ check_text_not_exists() {
     fi
 }
 
-echo "\n"
+echo " "
+echo "Kocorowski Diagnostic Image"
+echo " "
 
 # Usage:
 check_text_exists "/home/koco/Desktop/Forensics1.txt" "diag{ThisIsTheAnswerToForensicsQuestion1}" "Forensics 1 Correct"
 check_text_exists "/home/koco/Desktop/Forensics2.txt" "deftones" "Forensics 2 correct"
+
+check_text_exists "/home/koco/Desktop/Forensics4.txt" "sky bar" "Forensics 4 correct"
 
 
