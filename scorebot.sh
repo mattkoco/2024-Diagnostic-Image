@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Please give around ~5 minutes for the raw to update
 # Scorebot for 2024 Diag
 
 # test to make sure everything works
