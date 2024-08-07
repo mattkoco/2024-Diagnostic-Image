@@ -1,6 +1,7 @@
 # Users:
 
-- _Koco_ (ADMIN) (Group: **Training Leads**)
+- _Koco_ (ADMIN) (Group: **Training Leads**) (YOU!)
+- Password: kali (DONT CHANGE)
 
 - _Dimitri_ (ADMIN) (Group: **Training Leads**)
 
