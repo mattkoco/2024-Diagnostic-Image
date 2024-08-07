@@ -37,6 +37,7 @@
 
 # Unauthorized users:
 
-Counselman (ADMIN)
-Cole (Group: Product Dev)
+- Counselman (ADMIN)
+  
+- Cole (Group: Product Dev)
 
