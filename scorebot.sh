@@ -31,9 +31,7 @@ check_text_not_exists() {
     fi
 }
 
-# Example usage:
-check_text_exists "/home/koco/Scoring/getscore.sh" "./scorebot.sh" "Control Vuln - Scorebot is working."
-check_text_not_exists "/home/koco/Scoring/getscore.sh" "gabagababgabagba" "Control Vuln 2 - Scorebot is working x2"
+# Usage:
 check_text_exists "/home/koco/Desktop/Forensics1.txt" "diag{ThisIsTheAnswerToForensicsQuestion1}" "Forensics 1 Correct"
 
 
