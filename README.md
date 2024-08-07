@@ -1,38 +1,38 @@
 # Users:
 
-_Koco_ (ADMIN) (Group: **Training Leads**)
+- _Koco_ (ADMIN) (Group: **Training Leads**)
 
-_Dimitri_ (ADMIN) (Group: **Training Leads**)
+- _Dimitri_ (ADMIN) (Group: **Training Leads**)
 
-_Billy_ (ADMIN) (Group: **Training Leads**)
-
-
-
-_Kai_ (Group: **Mentor Leads**)
-
-_CT_ (Group: **Mentor Leads**)
-
-_James_ (Group: **Mentor Leads**)
+- _Billy_ (ADMIN) (Group: **Training Leads**)
 
 
 
-_Jallard_ (Group: **Lab Managers**)
+- _Kai_ (Group: **Mentor Leads**)
 
-_Ballard_ (Group: **Lab Managers**)
+- _CT_ (Group: **Mentor Leads**)
 
-_Spencer_ (Group: **Lab Managers**)
-
-
-
-_Ryan_ (Group: **Field Ops**)
-
-_Coyne_ (Group: **Field Ops**)
+- _James_ (Group: **Mentor Leads**)
 
 
 
-_Casey_ (Group: **Product Dev**)
+- _Jallard_ (Group: **Lab Managers**)
 
-_Omron_ (Group: **Product Dev**)
+- _Ballard_ (Group: **Lab Managers**)
+
+- _Spencer_ (Group: **Lab Managers**)
+
+
+
+- _Ryan_ (Group: **Field Ops**)
+
+- _Coyne_ (Group: **Field Ops**)
+
+
+
+- _Casey_ (Group: **Product Dev**)
+
+- _Omron_ (Group: **Product Dev**)
 
 
 # Unauthorized users:
