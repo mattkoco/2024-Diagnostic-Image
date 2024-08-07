@@ -36,9 +36,3 @@
 - _Omron_ (Group: **Product Dev**)
 
 
-# Unauthorized users:
-
-- Counselman (ADMIN)
-  
-- Cole (Group: Product Dev)
-
