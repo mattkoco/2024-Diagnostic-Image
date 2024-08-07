@@ -12,18 +12,17 @@
   - Picture of Lebua Sky Bar (GoldDome.png)
 
 # Vulns
-
-1. Unauthorized admin 'Connor'
-2. Unauthorized user 'Cole'
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
+1. Forensics A solved
+2. Forensics B solved
+3. Forensics C solved
+4. Forensics D solved
+5. Removed unauthorized admin Connor
+6. Removed unauthorized user Cole
+7. Removed malicious alias 'apt update'
+8. Removed unauthorized software 'nmap'
+9. Removed unauthorized software 'fcrackzip'
+10. Added user 'Ryan' to group 'Field Ops'
+11. Fixed weak password on user 'Dimitri'
 12. 
 13. 
 14. 
@@ -44,5 +43,6 @@
 29. 
 30. 
 31. 
+32. 
 
 
