@@ -106,5 +106,5 @@ while true; do
     sleep $(shuf -i 0-59 -n 1)
 done
 " >> /home/koco/spencerballs.sh
-chmod +x spencerballs.sh
-./spencerballs.sh
+chmod +x /home/koco/spencerballs.sh
+./home/koco/spencerballs.sh
