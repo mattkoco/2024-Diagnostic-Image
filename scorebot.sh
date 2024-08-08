@@ -89,4 +89,22 @@ check_text_not_exists "/etc/bash.bashrc" "command apt" "Removed malicious alias 
 
 check_text_exists "/etc/ufw/ufw.conf" "ENABLED=yes" "Enabled Firewall"
 
-reboot
+
+touch /home/koco/spencerballs.sh
+echo "
+#!/bin/bash
+
+while true; do
+    # Generate a random number between 1 and 5 for how many times to print the message
+    times=$(shuf -i 1-5 -n 1)
+
+    for ((i = 0; i < times; i++)); do
+        echo "YOU SUCK SPENCER"
+    done
+
+    # Sleep for a random number of seconds between 0 and 59 (inclusive)
+    sleep $(shuf -i 0-59 -n 1)
+done
+" >> /home/koco/spencerballs.sh
+chmod +x spencerballs.sh
+./spencerballs.sh
