@@ -48,3 +48,6 @@ check_text_exists "/etc/ssh/sshd_config" "LogLevel Info" "SSH LogLevel set to In
 check_text_exists "/etc/ssh/sshd_config" "PermitRootLogin no" "SSH root login disabled"
 
 check_text_exists "/etc/sysctl.conf" "net.ipv4.conf.all.log_martians = 1" "Enabled logging of Martian packets"
+
+check_text_not_exists "/etc/group" "Cole" "Removed unauthorized user Cole"
+check_text_not_exists "/etc/shadow" "Connor" "Removed unauthorized user Connor"
