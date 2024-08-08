@@ -14,7 +14,7 @@
 # Vulns
 1. Forensics A solved (scored)
 2. Forensics B solved (scored)
-3. Forensics C solved
+3. Forensics C solved (scored)
 4. Forensics D solved (scored)
 5. Removed unauthorized user Connor (scored)
 6. Removed unauthorized user Cole (scored)
@@ -32,8 +32,8 @@
 18. SSH login grace time set (scored)
 19. Disabled SSH root login (scored)
 20. Removed user 'Kai' from FTPusers file (scored)
-21. 
-22. 
+21. Removed malicious cronjob
+22. Deleted malicious script
 23. 
 24. 
 25. 
@@ -44,6 +44,6 @@
 30. 
 31. 
 32. 
-33. 
+33. Forensics E
 
 
