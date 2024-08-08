@@ -5,7 +5,7 @@ echo " "
 echo " "
 echo "NOTE: Please allow up to 5 minutes for scorebot updates & injects."
 echo "Scorebot version: v1"
-echo "Injects: YES"
+echo "Injects: NO"
 
 # Function to check if text exists in a file
 check_text_exists() {
