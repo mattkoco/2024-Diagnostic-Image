@@ -19,8 +19,8 @@
 5. Removed unauthorized user Connor (scored)
 6. Removed unauthorized user Cole (scored)
 7. Removed malicious alias 'apt update'
-8. Removed unauthorized software 'nmap'
-9. Removed unauthorized software 'fcrackzip'
+8. Removed unauthorized software 'nmap' (scored)
+9. Removed unauthorized software 'fcrackzip' (scored)
 10. Added user 'Ryan' to group 'Field Ops' (scored)
 11. Fixed weak password on user 'Dimitri'
 12. Unwanted media files (.mp3) (scored)
