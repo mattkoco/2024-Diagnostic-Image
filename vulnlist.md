@@ -18,7 +18,7 @@
 4. Forensics D solved (scored)
 5. Removed unauthorized user Connor (scored)
 6. Removed unauthorized user Cole (scored)
-7. Removed malicious alias 'apt update'
+7. Removed malicious alias 'apt update' (scored)
 8. Removed unauthorized software 'nmap' (scored)
 9. Removed unauthorized software 'fcrackzip' (scored)
 10. Added user 'Ryan' to group 'Field Ops' (scored)
@@ -34,7 +34,7 @@
 20. Removed user 'Kai' from FTPusers file (scored)
 21. Removed malicious cronjob
 22. Deleted malicious script
-23. 
+23. Enabled UFW (scored)
 24. 
 25. 
 26. 
