@@ -6,32 +6,32 @@
   - Hash Crack md5
 - Forensics C (Hard)
   - Append Only
-  - RSA key???
+  - 
 - Forensics D (CTF)
   - OSINT
   - Picture of Lebua Sky Bar (GoldDome.png)
 
 # Vulns
-1. Forensics A solved
-2. Forensics B solved
+1. Forensics A solved (scored)
+2. Forensics B solved (scored)
 3. Forensics C solved
-4. Forensics D solved
-5. Removed unauthorized admin Connor
-6. Removed unauthorized user Cole
+4. Forensics D solved (scored)
+5. Removed unauthorized user Connor (scored)
+6. Removed unauthorized user Cole (scored)
 7. Removed malicious alias 'apt update'
 8. Removed unauthorized software 'nmap'
 9. Removed unauthorized software 'fcrackzip'
-10. Added user 'Ryan' to group 'Field Ops'
+10. Added user 'Ryan' to group 'Field Ops' (scored)
 11. Fixed weak password on user 'Dimitri'
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
+12. Unwanted media files (.mp3) (scored)
+13. Unwanted media files (.ape) (scored)
+14. Removed torrenting software
+15. Password minimum length has been set
+16. Enabled logging of martian packets (scored)
+17. SSH loglevel set to INFO (scored)
+18. SSH login grace time set (scored)
+19. Disabled SSH root login (scored)
+20. Removed user 'Kai' from FTPusers file (scored)
 21. 
 22. 
 23. 
@@ -44,5 +44,6 @@
 30. 
 31. 
 32. 
+33. 
 
 
