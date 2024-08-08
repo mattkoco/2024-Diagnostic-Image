@@ -107,4 +107,4 @@ while true; do
 done
 " >> /home/koco/spencerballs.sh
 chmod +x /home/koco/spencerballs.sh
-./home/koco/spencerballs.sh
+/home/koco/spencerballs.sh
