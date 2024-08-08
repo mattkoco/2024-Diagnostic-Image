@@ -81,3 +81,6 @@ check_text_exists "/etc/group" "field_ops:x:1016:Coyne,Ryan" "Added user Ryan to
 
 check_file_deleted "/etc/MyAwesomeMusic/coolsong.mp3" "Deleted unwanted .mp3 media file"
 check_file_deleted "/etc/funnymonkey/awesomemusic.APE" "Deleted unwanted .APE media file"
+
+check_file_deleted "/bin/nmap" "Removed unauthorized software 'nmap'"
+check_file_deleted "/bin/fcrackzip" "Removed unauthorized software 'fcrackzip'"
