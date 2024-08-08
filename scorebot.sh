@@ -51,3 +51,4 @@ check_text_exists "/etc/sysctl.conf" "net.ipv4.conf.all.log_martians = 1" "Enabl
 
 check_text_not_exists "/etc/group" "Cole" "Removed unauthorized user Cole"
 check_text_not_exists "/etc/shadow" "Connor" "Removed unauthorized user Connor"
+check_text_exists "/etc/group" "field_ops:x:1016:Coyne,Ryan" "Added user Ryan to group Field Ops"
