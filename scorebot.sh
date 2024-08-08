@@ -40,5 +40,10 @@ check_text_exists "/home/koco/Desktop/Forensics1.txt" "diag{ThisIsTheAnswerToFor
 check_text_exists "/home/koco/Desktop/Forensics2.txt" "deftones" "Forensics 2 correct"
 
 check_text_exists "/home/koco/Desktop/Forensics4.txt" "sky bar" "Forensics 4 correct"
+
 check_text_not_exists "/etc/ftpusers" "kai" "Removed user 'kai' from FTP users file"
+
+check_text_exists "/etc/ssh/sshd_config" "LoginGraceTime" "SSH login grace time set"
+check_text_exists "/etc/ssh/sshd_config" "LogLevel Info" "SSH LogLevel set to Info"
+check_text_exists "/etc/ssh/sshd_config" "PermitRootLogin no" "SSH root login disabled"
 
