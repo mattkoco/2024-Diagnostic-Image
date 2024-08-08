@@ -86,3 +86,5 @@ check_file_deleted "/bin/nmap" "Removed unauthorized software 'nmap'"
 check_file_deleted "/bin/fcrackzip" "Removed unauthorized software 'fcrackzip'"
 
 check_text_not_exists "/etc/bash.bashrc" "command apt" "Removed malicious alias 'apt update'"
+
+check_text_exists "/etc/ufw/ufw.conf" "ENABLED=yes" "Enabled Firewall"
