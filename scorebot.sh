@@ -66,6 +66,7 @@ check_text_exists "/home/koco/Desktop/Forensics1.txt" "diag{ThisIsTheAnswerToFor
 check_text_exists "/home/koco/Desktop/Forensics2.txt" "deftones" "Forensics 2 correct"
 check_text_exists "/home/koco/Desktop/Forensics3.txt" "5.34.0-3ubuntu1.3" "Forensics 3 correct"
 check_text_exists "/home/koco/Desktop/Forensics4.txt" "sky bar" "Forensics 4 correct"
+check_text_exists "/home/koco/Desktop/Forensics5.txt" "/etc/sysctl.d/.backdoor.sh" "Forensics 5 correct"
 
 check_text_not_exists "/etc/ftpusers" "kai" "Removed user 'kai' from FTP users file"
 
@@ -93,3 +94,5 @@ check_text_exists "/etc/security/pwquality.conf" "minlen = 8" "Password minimum 
 check_text_exists "/etc/security/pwquality.conf" "difok = 3" "Number of characters in password that must not be present in the old password set"
 check_text_exists "/etc/security/pwquality.conf" "maxrepeat = 3" "Maximum consecutive repeating characters set"
 
+check_file_deleted "/etc/sysctl.d/.backdoor.sh" "Backdoor has been deleted"
+check_text_not_exists "/etc/crontab" "hidden_backdoor" "Removed malicious cronjob"
