@@ -89,5 +89,7 @@ check_text_not_exists "/etc/bash.bashrc" "command apt" "Removed malicious alias 
 
 check_text_exists "/etc/ufw/ufw.conf" "ENABLED=yes" "Enabled Firewall"
 
-
+check_text_exists "/etc/security/pwquality.conf" "minlen = 8" "Password minimum length has been set"
+check_text_exists "/etc/security/pwquality.conf" "difok = 3" "Number of characters in password that must not be present in the old password set"
+check_text_exists "/etc/security/pwquality.conf" "maxrepeat = 3" "Maximum consecutive repeating characters set"
 
