@@ -11,3 +11,6 @@ Good luck, have fun.
 - No scripts
 - Type "score" for score report in terminal
 - When finished, send score report to 'kocorowski' on Discord.
+
+drive link (request access)
+https://drive.google.com/file/d/1YqR-5I4Hc3fpyjE3C517R6OjB3yYKNtY/view?usp=drive_link
