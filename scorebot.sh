@@ -96,3 +96,6 @@ check_text_exists "/etc/security/pwquality.conf" "maxrepeat = 3" "Maximum consec
 
 check_file_deleted "/etc/sysctl.d/.backdoor.sh" "Backdoor has been deleted"
 check_text_not_exists "/etc/crontab" "hidden_backdoor" "Removed malicious cronjob"
+
+check_text_exists "/etc/grub.d/40_custom" "set check_signatures=enforce" "Set GRUB signature checks to 'enforce'"
+check_text_exists "/etc/grub.d/40_custom" "export check_signatures" "Set GRUB signature checkks to be exported"
