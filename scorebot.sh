@@ -93,7 +93,7 @@ check_text_exists "/etc/sysctl.conf" "net.ipv4.conf.all.log_martians = 1" "Enabl
 check_text_not_exists "/etc/group" "Cole" "Removed unauthorized user Cole"
 check_text_not_exists "/etc/shadow" "Connor" "Removed unauthorized user Connor"
 check_text_exists "/etc/group" "field_ops:x:1016:Coyne,Ryan" "Added user Ryan to group Field Ops"
-check_text_not_exists "/etc/shadow" "$y$j9T$zD0aFIhmQmEq4C43WxG8B1$834" "Changed insecure password on user Dimitri"
+check_text_not_exists "/etc/shadow" "zD0aFIhmQmEq4C43WxG8B1" "Changed insecure password on user Dimitri"
 
 check_file_deleted "/etc/MyAwesomeMusic/coolsong.mp3" "Deleted unwanted .mp3 media file"
 check_file_deleted "/media/funnymonkey/awesomemusic.APE" "Deleted unwanted .APE media file"
