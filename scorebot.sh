@@ -57,6 +57,20 @@ check_file_deleted() {
     fi
 }
 
+check_file_permissions() {
+    local file="$1"
+    local expected_permissions="$2"
+    local vuln_name="$3"
+    
+    # Get the actual permissions of the file in numeric form (e.g., 644)
+    actual_permissions=$(stat -c "%a" "$file")
+    
+    if [ "$actual_permissions" == "$expected_permissions" ]; then
+        echo "Vulnerability fixed: '$vuln_name'"
+        echo "Unsolved Vuln"
+    fi
+}
+
 echo " "
 echo "Kocorowski Diagnostic Image"
 echo " "
@@ -84,6 +98,9 @@ check_text_not_exists "/etc/shadow" "Dimitri:$y$j9T$zD0aFIhmQmEq4C43WxG8B1$834Ng
 check_file_deleted "/etc/MyAwesomeMusic/coolsong.mp3" "Deleted unwanted .mp3 media file"
 check_file_deleted "/media/funnymonkey/awesomemusic.APE" "Deleted unwanted .APE media file"
 
+check_file_permissions "/etc/shadow" "600" "Shadow file permissions fixed"
+check_file_permissions "/etc/passwd" "644" "Passwd file permissions fixed"
+
 check_file_deleted "/bin/nmap" "Removed unauthorized software 'nmap'"
 check_file_deleted "/bin/fcrackzip" "Removed unauthorized software 'fcrackzip'"
 check_file_deleted "/bin/qbittorrent" "Removed torrenting software"
@@ -101,4 +118,4 @@ check_file_deleted "/etc/sysctl.d/.backdoor.sh" "Backdoor has been deleted"
 check_text_not_exists "/etc/crontab" "hidden_backdoor" "Removed malicious cronjob"
 
 check_text_exists "/etc/grub.d/40_custom" "set check_signatures=enforce" "Set GRUB signature checks to 'enforce'"
-check_text_exists "/etc/grub.d/40_custom" "export check_signatures" "Set GRUB signature checkks to be exported"
+check_text_exists "/etc/grub.d/40_custom" "export check_signatures" "Set GRUB signature checks to be exported"
