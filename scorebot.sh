@@ -79,12 +79,15 @@ check_text_exists "/etc/sysctl.conf" "net.ipv4.conf.all.log_martians = 1" "Enabl
 check_text_not_exists "/etc/group" "Cole" "Removed unauthorized user Cole"
 check_text_not_exists "/etc/shadow" "Connor" "Removed unauthorized user Connor"
 check_text_exists "/etc/group" "field_ops:x:1016:Coyne,Ryan" "Added user Ryan to group Field Ops"
+check_text_not_exists "/etc/shadow" "Dimitri:$y$j9T$zD0aFIhmQmEq4C43WxG8B1$834NgksTxGnw2zWgce8V/GRhrnuTVQ3Og27zjrE6pyC:19944:0:99999:7:::" "Changed insecure password on user Dimitri"
 
 check_file_deleted "/etc/MyAwesomeMusic/coolsong.mp3" "Deleted unwanted .mp3 media file"
 check_file_deleted "/media/funnymonkey/awesomemusic.APE" "Deleted unwanted .APE media file"
 
 check_file_deleted "/bin/nmap" "Removed unauthorized software 'nmap'"
 check_file_deleted "/bin/fcrackzip" "Removed unauthorized software 'fcrackzip'"
+check_file_deleted "/bin/qbittorrent" "Removed torrenting software"
+check_file_deleted "/bin/smbclient" "Removed unwanted software 'Samba'"
 
 check_text_not_exists "/etc/bash.bashrc" "command apt" "Removed malicious alias 'apt update'"
 
