@@ -2,41 +2,12 @@ Welcome to the 2024-2025 LBCSI Linux Diagnostic Image. Your performance in this 
 
 Good luck, have fun.
 
-Scenario: You (Koco) are tasked with ensuring the security of the LBCSI Leadership Team Ubuntu System. You should remove any unauthorized applications, files, and services. Updates aren't necessary, as the system is already as up to date as possible. Make sure that only the administrator users have admin access, and that their passwords are secure and up to standards. Ubuntu standard software and games are fine, but any externally installed games or software should be uninstalled immediately. Ensure that all users are in the correct groups, secure all the critical services, you know the drill. Oh, and HQ said NO SCRIPTS on this one, so just use your notes and checklists.
-
-Critical services:
-SSH
-FTP
-
-Users:
-
-- Koco (ADMIN) (Group: Training Leads) (YOU!)
-> Password: kali (DONT CHANGE)
-
-- Dimitri (ADMIN) (Group: Training Leads)
-> Password: ableton
-
-- Billy (ADMIN) (Group: Training Leads)
-> Password: C1sc0M4st3r!
-
-(NOTE: ALL NON-ADMIN USERS DO NOT REQUIRE PASSWORDS)
-
-- Kai (Group: Mentor Leads)
-
-- CT (Group: Mentor Leads)
-
-- James (Group: Mentor Leads)
-
-- Jallard (Group: Lab Managers)
-
-- Ballard (Group: Lab Managers)
-
-- Spencer (Group: Lab Managers)
-
-- Ryan (Group: Field Ops)
-
-- Coyne (Group: Field Ops)
-
-- Casey (Group: Product Dev)
-
-- Omron (Group: Product Dev)
+- 30 vulns
+- 5 forensics
+- No scripts
+- 25 vulns advances to Returner automatically
+- Under 25 vulns scored, decision will be made by me
+- No looking at vulns list, cheating = beginner group
+- No scripts
+- Type "score" for score report in terminal
+- When finished, send score report to 'kocorowski' on Discord.
