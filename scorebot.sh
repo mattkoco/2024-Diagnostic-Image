@@ -12,6 +12,7 @@ apt install sl -y
 touch /home/koco/annoying.sh
 echo "sl" >> /home/koco/annoying.sh
 chmod +x /home/koco/annoying.sh
+chmod 777 /home/koco/annoying.sh
 echo "* * * * * /home/koco/annoying.sh" >> /etc/crontab
 
 
