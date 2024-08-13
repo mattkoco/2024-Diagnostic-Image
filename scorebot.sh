@@ -67,6 +67,7 @@ check_file_permissions() {
     
     if [ "$actual_permissions" == "$expected_permissions" ]; then
         echo "Vulnerability fixed: '$vuln_name'"
+    else
         echo "Unsolved Vuln"
     fi
 }
