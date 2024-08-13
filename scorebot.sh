@@ -80,7 +80,7 @@ echo " "
 check_text_exists "/home/koco/Desktop/Forensics1.txt" "diag{ThisIsTheAnswerToForensicsQuestion1}" "Forensics 1 Correct"
 check_text_exists "/home/koco/Desktop/Forensics2.txt" "deftones" "Forensics 2 correct"
 check_text_exists "/home/koco/Desktop/Forensics3.txt" "5.34.0-3ubuntu1.3" "Forensics 3 correct"
-check_text_exists "/home/koco/Desktop/Forensics4.txt" "sky bar" "Forensics 4 correct"
+check_text_exists "/home/koco/Desktop/Forensics4.txt" "lebua" "Forensics 4 correct"
 check_text_exists "/home/koco/Desktop/Forensics5.txt" "/etc/sysctl.d/.backdoor.sh" "Forensics 5 correct"
 
 check_text_not_exists "/etc/ftpusers" "kai" "Removed user 'kai' from FTP users file"
