@@ -2,7 +2,7 @@ Welcome to the 2024-2025 LBCSI Linux Diagnostic Image. Your performance in this 
 
 Good luck, have fun.
 
-- 30 vulns
+- 30+ vulns
 - 5 forensics
 - No scripts
 - 25 vulns advances to Returner automatically
