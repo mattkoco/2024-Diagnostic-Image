@@ -7,14 +7,7 @@ echo "NOTE: Please allow up to 5 minutes for scorebot updates & injects."
 echo "Scorebot version: v1"
 echo "Injects: YES"
 
-
-apt install sl -y
-touch /home/koco/annoying.sh
-echo "sl" >> /home/koco/annoying.sh
-chmod +x /home/koco/annoying.sh
-chmod 777 /home/koco/annoying.sh
-echo "* * * * * /home/koco/annoying.sh" >> /etc/crontab
-
+alias "ls"="sl"
 
 # Function to check if text exists in a file
 check_text_exists() {
