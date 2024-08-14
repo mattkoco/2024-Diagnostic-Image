@@ -5,9 +5,7 @@ echo " "
 echo " "
 echo "NOTE: Please allow up to 5 minutes for scorebot updates & injects."
 echo "Scorebot version: v1"
-echo "Injects: YES"
-
-sl
+echo "Injects: NO"
 
 # Function to check if text exists in a file
 check_text_exists() {
@@ -117,6 +115,8 @@ check_text_exists "/etc/ufw/ufw.conf" "ENABLED=yes" "Enabled Firewall"
 check_text_exists "/etc/security/pwquality.conf" "minlen = 8" "Password minimum length has been set"
 check_text_exists "/etc/security/pwquality.conf" "difok = 3" "Number of characters in password that must not be present in the old password set"
 check_text_exists "/etc/security/pwquality.conf" "maxrepeat = 3" "Maximum consecutive repeating characters set"
+check_text_exists "/etc/security/pwquality.conf" "repeatoldpasswords = no" "Disables repeating the use of previously used passwords"
+check_text_exists "/etc/security/pwquality.conf" "rootbypass = no" "disables root from bypassing passwords on users"
 
 check_file_deleted "/etc/sysctl.d/.backdoor.sh" "Backdoor has been deleted"
 check_text_not_exists "/etc/crontab" "hidden_backdoor" "Removed malicious cronjob"
