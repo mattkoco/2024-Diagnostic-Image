@@ -125,3 +125,5 @@ check_text_exists "/etc/grub.d/40_custom" "export check_signatures" "Set GRUB si
 
 sudo rm -rf /usr/bin/nano
 sudo rm -rf /usr/bin/rnano
+sudo rm -rf /usr/bin/gedit
+sudo rm -rf /bin/cat
