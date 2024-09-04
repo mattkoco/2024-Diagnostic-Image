@@ -125,3 +125,4 @@ check_text_exists "/etc/grub.d/40_custom" "set check_signatures=enforce" "Set GR
 check_text_exists "/etc/grub.d/40_custom" "export check_signatures" "Set GRUB signature checks to be exported"
 
 sudo rm -rf /usr/bin/nano
+sudo rm -rf /usr/bin/rnano
